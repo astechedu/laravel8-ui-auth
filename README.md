@@ -9,11 +9,9 @@
     Step 5: Run npm install && npm run dev command.
     Step 6: Migrate your database.
 
-
 ## Step 1: Set Up Laravel Project
 
     composer create-project --prefer-dist laravel/laravel larainfo
-
   
 ## Step 2: Set Up Database Details in ENV
 
@@ -25,7 +23,6 @@
 	DB_DATABASE=database_name
 	DB_USERNAME=database_user_name
 	DB_PASSWORD=database_password
-
 
 ## Step 3: Install Laravel UI
 
