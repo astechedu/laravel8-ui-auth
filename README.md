@@ -1,5 +1,4 @@
 # laravel8-ui-vue
-Laravel-8 with laravel ui &amp; vue
 
 # Laravel 8 Authentication with Laravel UI
 
