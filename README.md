@@ -1,7 +1,7 @@
 # laravel8-ui-vue
 Laravel-8 with laravel ui &amp; vue
 
-###Laravel 8 Authentication with Laravel UI
+# Laravel 8 Authentication with Laravel UI
 
     Step 1: Set Up Laravel Project.
     Step 2: Set Up Database Details in ENV.
@@ -11,12 +11,12 @@ Laravel-8 with laravel ui &amp; vue
     Step 6: Migrate your database.
 
 
-Step 1: Set Up Laravel Project
+## Step 1: Set Up Laravel Project
 
     composer create-project --prefer-dist laravel/laravel larainfo
 
   
-Step 2: Set Up Database Details in ENV
+## Step 2: Set Up Database Details in ENV
 
    .env
 
@@ -28,11 +28,11 @@ Step 2: Set Up Database Details in ENV
 	DB_PASSWORD=database_password
 
 
-Step 3: Install Laravel UI
+## Step 3: Install Laravel UI
 
 	composer require laravel/ui
 
-Step 4: Step up Auth Scaffolding 
+## Step 4: Step up Auth Scaffolding 
 
 	use anyone for you requirements
 
@@ -40,11 +40,11 @@ Step 4: Step up Auth Scaffolding
 	php artisan ui vue --auth
 	php artisan ui react --auth
 
-Step 5: Run npm install && npm run dev command
+## Step 5: Run npm install && npm run dev command
 
 	npm install && npm run dev
 
-Step 6: Migrate your database
+## Step 6: Migrate your database
 
  	php artisan migrate
 
