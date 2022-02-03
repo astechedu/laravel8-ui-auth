@@ -1,5 +1,3 @@
-# laravel8-ui-vue
-
 # Laravel 8 Authentication with Laravel UI
 
     Step 1: Set Up Laravel Project.
