@@ -1,6 +1,7 @@
 # laravel8-ui-vue
 Laravel-8 with laravel ui &amp; vue
-Laravel 8 Authentication with Laravel UI
+
+###Laravel 8 Authentication with Laravel UI
 
     Step 1: Set Up Laravel Project.
     Step 2: Set Up Database Details in ENV.
@@ -31,8 +32,6 @@ Step 3: Install Laravel UI
 
 	composer require laravel/ui
 
-
-
 Step 4: Step up Auth Scaffolding 
 
 	use anyone for you requirements
@@ -41,12 +40,9 @@ Step 4: Step up Auth Scaffolding
 	php artisan ui vue --auth
 	php artisan ui react --auth
 
-
 Step 5: Run npm install && npm run dev command
 
-npm install && npm run dev
-
-
+	npm install && npm run dev
 
 Step 6: Migrate your database
 
