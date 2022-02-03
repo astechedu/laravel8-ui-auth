@@ -47,3 +47,6 @@
 Now our Laravel 8 authentication system is ready. you can run serve 
 
  	php artisan serve
+	
+	
+:+1:	
