@@ -10,7 +10,7 @@
 
 ## Step 1: Set Up Laravel Project
 
-    composer create-project --prefer-dist laravel/laravel larainfo
+    composer create-project --prefer-dist laravel/laravel AnyAppName
   
 ## Step 2: Set Up Database Details in ENV
 
