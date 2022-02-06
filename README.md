@@ -56,7 +56,7 @@ Now our Laravel 8 authentication system is ready. you can run serve
  	php artisan serve
 	
 
-## 7. Configuration
+## Step 7: Configuration
 
 ## 1. resources/js/components/Example.js
 
@@ -70,7 +70,6 @@ function Example() {
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-header">Example Component</div>
-
                         <div className="card-body">I'm an example component!</div>
                     </div>
                 </div>
@@ -78,7 +77,6 @@ function Example() {
         </div>
     );
 }
-
 export default Example;
 
 if (document.getElementById('example')) {
