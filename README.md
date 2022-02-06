@@ -61,9 +61,11 @@ Now our Laravel 8 authentication system is ready. you can run serve
 ## 1. resources/js/components/Example.js
 
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 
 function Example() {
+
     return (
         <div className="container">
             <div className="row justify-content-center">
