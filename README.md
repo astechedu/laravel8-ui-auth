@@ -6,6 +6,7 @@
     Step 4: Step up Auth Scaffolding.
     Step 5: Run npm install && npm run dev command.
     Step 6: Migrate your database.
+    Step 7: Configuration
 
 ## Step 1: Set Up Laravel Project
 
@@ -30,6 +31,14 @@
 
 	use anyone for you requirements
 
+    1. Without Auth:
+
+	php artisan ui bootstrap
+	php artisan ui vue
+	php artisan ui react
+
+    2. With Auth:
+
 	php artisan ui bootstrap --auth
 	php artisan ui vue --auth
 	php artisan ui react --auth
@@ -46,5 +55,70 @@ Now our Laravel 8 authentication system is ready. you can run serve
 
  	php artisan serve
 	
-	
+
+## 7. Configuration
+
+## 1. resources/js/components/Example.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function Example() {
+    return (
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-md-8">
+                    <div className="card">
+                        <div className="card-header">Example Component</div>
+
+                        <div className="card-body">I'm an example component!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Example;
+
+if (document.getElementById('example')) {
+    ReactDOM.render(<Example />, document.getElementById('example'));
+}
+
+## 2. resources/js/components/app.js
+
+    require('./bootstrap');
+	require('./components/Example');
+
+## 3. resources/views/app.blade.php
+
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body>
+
+    <!-- React root DOM -->
+    <div id="example">
+    </div>
+
+    <!-- React JS -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+</body>
+</html>
+
+## 4. routes/web.php
+
+
+Route::get('/', function () {
+    return view('app');
+});
+
+
+
 :+1:	
