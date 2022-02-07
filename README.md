@@ -1,4 +1,4 @@
-![This is an image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Yna6HPc7J1izT3O17jfJ6Qd1LE7dhOk5OfGog1F27Y3PDLqBlYjS3R7r6Ev9mBzWWNw&usqp=CAU)
+![This is an image](https://i.morioh.com/201102/4013dde6.webp)
 
 # Laravel 8 Authentication with Laravel UI
 
