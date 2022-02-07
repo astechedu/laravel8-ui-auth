@@ -1,3 +1,5 @@
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 # Laravel 8 Authentication with Laravel UI
 
     Step 1: Set Up Laravel Project.
