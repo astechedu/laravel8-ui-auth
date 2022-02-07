@@ -1,3 +1,5 @@
+![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4) 
+
 # Laravel 8 Authentication with Laravel UI
 
     Step 1: Set Up Laravel Project.
