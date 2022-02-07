@@ -126,5 +126,5 @@ Now our Laravel 8 authentication system is ready. you can run serve
     });
 
 
-:+1:
 ![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4) 
+:+1:
