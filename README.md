@@ -1,4 +1,4 @@
-<img src="https://i.morioh.com/201102/4013dde6.webp" width="300" height="200">
+<img src="https://i.morioh.com/201102/4013dde6.webp" width="200" height="200">
 
 # Laravel 8 Authentication with Laravel UI
 
